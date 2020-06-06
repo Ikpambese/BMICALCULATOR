@@ -14,6 +14,7 @@ enum Gender {
 }
 
 class InputPage extends StatefulWidget {
+  static const String id = 'input_page';
   @override
   _InputPageState createState() => _InputPageState();
 }
